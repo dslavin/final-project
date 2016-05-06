@@ -1,0 +1,167 @@
+		#header {
+			background: black;
+			color: #66c2ff;
+			text-align: center;
+			padding: 5px 0px 5px 0px;
+			font-family: "Avenir Light", sans-serif;
+		}
+		
+		#navigation {
+			background: gray;
+			text-align: center;
+		}
+		
+		nav {
+			height: 20px;
+			outline: 0px;
+			text-transform: uppercase;
+			font-family: 20px, arial, sans-serif;
+		}
+		
+		nav ul li {
+			display: inline;
+			margin: 0 10px 0 10px;
+			list-style-type: none;
+			color: white;
+			text-align: center;
+		}
+		
+		nav ul {
+			margin: 0px;
+			padding: 3px;
+		}
+		
+		nav a {
+			color: white;
+			text-decoration: none;
+		}
+		
+		nav ul li a:hover {
+			color: #66c2ff;
+			background: black;
+		}
+		
+		footer a {
+			color: white;
+			text-decoration: none;
+		}
+		
+		footer {
+			background: gray;
+			color: white;
+			text-align: center;
+			padding: 4px;
+		}
+		
+		p {
+			color: black;
+		}
+		
+		img {
+			padding: 5px;
+			margin-top: 5px;
+			height: 250px;
+		}
+		
+		#gallery {
+			text-align: center;
+		}
+		
+		#homepage {
+			text-align: center;
+			display: block;
+			margin: auto;
+			width: 1050px;
+		}
+		
+		.container {
+   			 margin: 10px 4%;
+		}
+		
+		.row {
+   			 width: 100%;
+   			 margin-bottom: 20px;
+    		 display: block;
+		}
+		
+		.container::after, .row::after {
+    		clear: both;
+    		display: table;
+    		content: "";
+		}
+		
+		.col {
+   			float: left;
+    		display: block;
+		}
+		
+		.col:last-child {
+    		margin: 0;
+		}
+		
+		.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+		.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    		width: 100%;
+   			float: left;
+    		display: block;
+		}
+		
+		.col img {
+   			width: 100%;
+		}
+		
+		
+		@media (min-width: 768px) {
+   			 body {
+       			 color: white;
+   			 }
+    		#mainContainer {
+       			width: 750px;
+        		margin: 15px auto;
+        	 }
+   			 .col-2 {
+     		   margin-right: 2.35765%;
+    			width: 14.70196%;
+   			 }
+  		 	 .col-3 {
+     		   margin-right: 2.35765%;
+   	   		  width: 23.23176%;
+   			 }
+   			 .col-4 {
+        		margin-right: 2.35765%;
+        		width: 31.76157%;
+   			 }
+    		.col-6 {
+       			 margin-right: 2.35765%;
+       			 width: 48.82117%;
+       		 }
+		}
+
+		@media (min-width: 992px) {
+   			 body {
+        		color: white;
+   			 }
+    		 h1 {
+       			font-size: 3em;
+   			 }
+    		 #mainContainer {
+       			 width: 960px;
+       			 margin: 20px auto 5px;
+   			 }
+		}
+
+		@media (min-width: 1200px) {
+    		body {
+       			 color: white;
+   			}
+    		#mainContainer {
+       			 width: 1000px;
+        		 margin: 40px auto 10px;
+    		}
+   			h1 {
+        		font-size: 3.75em;
+        		font-weight: 200;
+    		}
+		}
+		
+		
